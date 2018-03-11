@@ -1,0 +1,14 @@
+.mdl-layout {
+	background-image:url(./epiceopa2interneg-min.png);
+
+	align-items: center;
+  justify-content: center;
+}
+.mdl-layout__content {
+	padding: 24px;
+	flex: none;
+}
+a.mdl-card__title-text {
+	display: inline;
+	padding-right: 1%;
+}
