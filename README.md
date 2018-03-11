@@ -2,8 +2,8 @@
 
   # description
 
-Source code of "La Salière" web interface in the MVC architectural pattern linked to a webstore
-Store : http://bytesclicker.online/magento
+Source code of "La Salière" web interface in the MVC architectural pattern linked to a webstore  
+Store : http://bytesclicker.online/magento  
 Interface : http://bytesclicker.online/interfaceMVC
 
   # subject 
