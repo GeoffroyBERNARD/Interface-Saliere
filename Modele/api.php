@@ -78,7 +78,7 @@
 			CURLOPT_CUSTOMREQUEST => "POST",
 			CURLOPT_POSTFIELDS => "{\r\n\t\"customer\": {\r\n\t\t\"email\": \"".$mail."\",\r\n\t\t\"firstname\": \"".$prenom."\",\r\n\t\t\"lastname\": \"".$nom."\",\r\n\t\t\"addresses\": [{\r\n\t\t\t\"defaultShipping\": true,\r\n\t\t\t\"defaultBilling\": true,\r\n\t\t\t\"firstname\": \"".$prenom."\",\r\n\t\t\t\"lastname\": \"".$nom."\",\r\n\t\t\t\r\n\t\t\t\"postcode\": \"".$postal."\",\r\n\t\t\t\"street\": [\"".$rue."\"],\r\n\t\t\t\"city\": \"Purchase\",\r\n\t\t\t\"telephone\": \"".$telephone."\",\r\n\t\t\t\"countryId\": \"".$pays."\"\r\n\t\t}]\r\n\t},\r\n  \"password\": \"".$password."\"\r\n}",
 			CURLOPT_HTTPHEADER => array(
-				"Authorization: Bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"Authorization: Bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"Cache-Control: no-cache",
 				"Content-Type: application/json",
 				"Postman-Token: db98dab3-bc8c-4dc9-a850-f7270c7059c8"
@@ -108,7 +108,7 @@
 		  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 		  CURLOPT_CUSTOMREQUEST => "GET",
 		  CURLOPT_HTTPHEADER => array(
-			"authorization: Bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+			"authorization: Bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 			"cache-control: no-cache",
 			"postman-token: 8c705935-01e0-0174-c683-b4e050b29ce8"
 		  ),
@@ -136,7 +136,7 @@
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 			CURLOPT_CUSTOMREQUEST => "GET",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"postman-token: e1db1570-0a14-deed-9f41-2e0fc185b2ae"
 			),
