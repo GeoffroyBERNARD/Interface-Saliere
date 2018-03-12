@@ -25,7 +25,7 @@
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 			CURLOPT_CUSTOMREQUEST => "POST",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"postman-token: 8e447333-8936-3b83-87cf-7c6101eff441"
 			),
@@ -54,7 +54,7 @@
 			CURLOPT_CUSTOMREQUEST => "POST",
 			CURLOPT_POSTFIELDS => "\n{\n  \"cartItem\": {\n    \"sku\": \"".$product."\",\n    \"qty\": ".$quantite.",\n    \"quote_id\": \"".$cart."\"\n  }}",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"content-type: application/json",
 				"postman-token: 1867dd48-c1a9-63fc-89b2-c8a7e0734037"
@@ -82,7 +82,7 @@
 			CURLOPT_CUSTOMREQUEST => "POST",
 			CURLOPT_POSTFIELDS => "\n{\n  \"cartItem\": {\n    \"sku\": \"".$product."\",\n    \"qty\": 1,\n    \"quote_id\": \"".$cart."\"\n  }}",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"content-type: application/json",
 				"postman-token: 1867dd48-c1a9-63fc-89b2-c8a7e0734037"
@@ -109,7 +109,7 @@
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 			CURLOPT_CUSTOMREQUEST => "DELETE",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"content-type: application/json",
 				"postman-token: ef386e67-092c-ad31-b908-8aada1affe65"
@@ -150,7 +150,7 @@
 			CURLOPT_HTTPHEADER => array(
 					"Cache-Control: no-cache",
 					"Postman-Token: 8672729b-4a94-4a74-99f0-f72f3ab80195",
-					"authorization: bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq"
+					"authorization: bearer https://www.owasp.org/index.php/Top_10-2017_Top_10"
 			),
 		));
 		$response = curl_exec($curl);
@@ -184,7 +184,7 @@
 			CURLOPT_POSTFIELDS => 
 				"{\r\n    \"addressInformation\": {\r\n        \"shippingAddress\": {\r\n            \"region\": \"MH\",\r\n            \"region_id\": 0,\r\n            \"country_id\": \"".$country_id."\",\r\n            \"street\": [\r\n                \"".$street."\"\r\n            ],\r\n            \"company\": \"abc\",\r\n            \"telephone\": \"".$telephone."\",\r\n            \"postcode\": \"".$postcode."\",\r\n            \"city\": \"".$city."\",\r\n            \"firstname\": \"".$firstname."\",\r\n            \"lastname\": \"".$lastname."\",\r\n            \"email\": \"".$email."\",\r\n            \"prefix\": \"address_\",\r\n            \"region_code\": \"MH\",\r\n            \"sameAsBilling\": 1\r\n        },\r\n        \"billingAddress\": {\r\n            \"region\": \"MH\",\r\n            \"region_id\": 0,\r\n            \"country_id\": \"".$country_id."\",\r\n            \"street\": [\r\n                \"".$street."\"\r\n            ],\r\n            \"company\": \"abc\",\r\n            \"telephone\": \"".$telephone."\",\r\n            \"postcode\": \"".$postcode."\",\r\n            \"city\": \"".$city."\",\r\n            \"firstname\": \"".$firstname."\",\r\n            \"lastname\": \"".$lastname."\",\r\n            \"email\": \"".$email."\",\r\n            \"prefix\": \"address_\",\r\n            \"region_code\": \"MH\"\r\n        },\r\n        \"shipping_method_code\": \"flatrate\",\r\n        \"shipping_carrier_code\": \"flatrate\"\r\n    }\r\n}",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: Bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: Bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"content-type: application/json",
 				"postman-token: ae94afc0-a2a4-d2b5-1740-2cc1335e76f3"
@@ -208,7 +208,7 @@
 			CURLOPT_CUSTOMREQUEST => "PUT",
 			CURLOPT_POSTFIELDS => "{\r\n    \"paymentMethod\": {\r\n        \"method\": \"checkmo\"\r\n    }\r\n}",
 			CURLOPT_HTTPHEADER => array(
-				"authorization: Bearer bj77pv2q3wj4wo0hqt8w5w1u734x6ksq",
+				"authorization: Bearer https://www.owasp.org/index.php/Top_10-2017_Top_10",
 				"cache-control: no-cache",
 				"content-type: application/json",
 				"postman-token: eb1cab2a-a6a0-fb38-7796-8f79cc4495d5"
