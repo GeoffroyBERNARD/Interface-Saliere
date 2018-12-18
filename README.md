@@ -15,8 +15,8 @@ Inspired by amazon's dash buttons, as a group of 4 and during a single week, we 
    # description
 
 Code source de l'interface web de "La Salière" suivant une architecture MVC et reliée à une boutique en ligne   
-Boutique : http://bytesclicker.online/magento  
-Interface : http://bytesclicker.online/interfaceMVC  
+Boutique : http://debaser.fr/magento  
+Interface : http://debaser.fr/interfaceMVC  
 
   # sujet
   
